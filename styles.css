@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+  /* background-color : #BEEEF7; */
+  background-color: #ddd;
+  transition : background 1s ease-in;
+}
+
+.dark {
+  background: ##1B262C;
+}
+.top-container {
+  text-align: center;
+  position : relative;
+}
+
+.mountain {
+  background-image: url("images/mountain-light.png");
+  background-color: inherit;
+  background-size: cover; */
+  position: absolute;
+  outline : none;
+  border : none;
+  width : 700px;
+  height : 650px;
+  margin-top: 7%;
+  /* -webkit-transition: background 0.2s ease-in-out; */
+  transition: background 1s ease-in-out;
+}
+
+.mountain2 {
+  background-image: url("images/mountain-dark.png");
+  background-color: inherit;
+  background-size: cover; */
+  position: absolute;
+  outline : none;
+  border : none;
+  width : 700px;
+  height : 650px;
+  margin-top: 7%;
+  transition: background 1s ease-in-out;
+}
+.sun {
+  background-image: url("images/sunny.png");
+  background-color: inherit;
+  background-size: cover;
+  position : absolute;
+  width : 200px;
+  height : 200px;
+  left : 4%;
+  top : 5%;
+  transition: background 1s linear;
+  outline: none;
+  border: none;
+}
+
+.moon {
+  background-image: url("images/moon.png");
+  background-color: inherit;
+  background-size: cover;
+  position : absolute;
+  width : 200px;
+  height : 200px;
+  left : 4%;
+  top : 5%;
+  transition: background 1s linear;
+  outline: none;
+  border: none;
+}
+.cloud-1 {
+  position : absolute;
+  width: 200px;
+  height : auto;
+  right : 7%;
+  top : 5%;
+}
+
+.cloud-2 {
+  position : absolute;
+  width: 200px;
+  height : auto;
+  right : 23%;
+  top : 30%;
+}
+.heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 5rem;
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  transform: translate(-50%, -50%);
+  color: #51C4D3;
+  transition: 1s linear;
+}
+
+.checkbox  {
+  opacity : 0;
+  position : absolute;
+}
+
+.label {
+  background-color: #1A1A2E;
+  /* 9DD5CB */
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  position: absolute;
+  height: 26px;
+  width : 50px;
+  top : 7%;
+  right : 5%;
+}
+
+.label .ball {
+  background-color : #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height : 22px;
+  width : 22px;
+  transform : translateX(0px);
+  transition: transform 0.3s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform : translateX(24px);
+}
+
+.asset {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  justify-content: space-between;
+  padding : 2px;
+}
+
+/* .switch {
+  top : 7%;
+  right : 5%;
+  z-index: 10;
+  position : absolute;
+  display: inline-block;
+  width : 100px;
+  height : 34px;
+
+}
+
+.switch input {
+  opacity: 0;
+  width : 0;
+  height: 0;
+}
+
+.slider {
+  position : absolute;
+  cursor: pointer;
+  top: 0;
+  left : 0;
+  right : 0;
+  bottom : 0;
+  background-color: #9DD5CB;
+  -webkit-transition : 0.4s;
+  transition : 0.4s;
+}
+
+.slider:before {
+  position : absolute;
+  content : "";
+  height : 26px;
+  width : 26px;
+  left : 4px;
+  bottom : 4px;
+  background-color: #fff;
+  -webkit-transition : 0.4s;
+  transition : 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #16213E;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #16213E;
+}
+
+input:checked + .slider:before {
+  -webkit-transform : translateX(66px);
+  -ms-transform : translateX(66px);
+  transform : translateX(66px);
+}
+
+.on
+{
+  display: none;
+}
+
+.on, .off
+{
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:checked+ .slider .on{
+  display: block;
+}
+
+input:checked + .slider .off
+{display: none;}
+
+.slider.round {
+  border-radius : 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} */
